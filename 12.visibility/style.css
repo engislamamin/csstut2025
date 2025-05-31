@@ -1,0 +1,91 @@
+/* Styles for the body of the page */
+body{
+    background-color: black;
+}
+
+/* Styles for the div elements */
+div{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    background-color: rgb(78, 69, 69);
+    color: white;
+    display: inline-block; /* This will allow the divs to be inline */
+    text-align: center; /* Center the text inside the div */
+    font-family: Arial, sans-serif; /* Set a default font for the text */
+    font-size: 20px; /* Set a default font size for the text */
+ 
+}
+/* style div with class div1 */
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    visibility: hidden; /* This will hide the div */
+    /* You can also use display: none; to completely remove it from the layout */
+}
+/* style div with class div2 */
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(152, 155, 115);
+    color: white;
+    display: none; 
+}
+/* style div with class div3 */
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 152, 155);
+    color: white;
+    opacity: 0; /* This will make the div invisible but still take up space */
+    /* You can also use visibility: hidden; to hide it without removing it from the layout */
+   
+}
+/* style div with class div4 */
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 115, 152);
+    color: white;
+    opacity: 0.5; /* This will make the div semi-transparent */
+    /* You can also use visibility: hidden; to hide it without removing it from the layout */
+   
+}
+/* style div with class div5 */
+.div5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(152, 115, 155);
+    color: white;
+    visibility:collapse; /* This will collapse the div, removing it from the layout */
+    /* You can also use display: none; to completely remove it from the layout */
+}
+/* style div with class div6 */
+.div6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 155, 152);
+    color: white;
+    /* Note: visibility: collapse; is not widely supported in all browsers */
+    visibility: collapse; /* This will collapse the div, removing it from the layout */
+}
+/* style div with class div7 */
+.div7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 152, 115);
+    color: white;
+    /* You can also use display: none; to completely remove it from the layout */
+
+}
+
+
+
+
+
+
+
