@@ -1,0 +1,27 @@
+
+/*
+ * This is a CSS file that demonstrates the use of nesting.
+ * The styles are applied to different elements based on their hierarchy.
+ */
+div {
+    background-color: lightgray;
+    padding: 20px;
+}
+.container p{
+    color: red;
+}
+.container h2{
+    color: blue;
+}
+div div h3{
+    color: green;
+    font-style: italic;
+}
+div div p {
+    color: purple;
+    font-weight: bold;
+}
+div p {
+    color: orange;
+    text-decoration: underline;
+}
