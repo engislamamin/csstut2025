@@ -1,0 +1,20 @@
+div{
+    width: 180px;
+    height: 190px;
+    background-color: red;
+    margin: 20px auto  ;
+    border-radius: 6px;
+    overflow: auto;
+    overflow-x: hidden;
+    
+}
+
+
+.app{
+    width: 200px;
+    height: 200px;
+    
+    overflow: scroll;
+    overflow-x: scroll;
+
+}
